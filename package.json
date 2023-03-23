@@ -1,0 +1,57 @@
+{
+  "name": "@fraytools/plugin-core",
+  "version": "0.1.0",
+  "description": "Base shared code for FrayTools plugins.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrayTools/plugin-core.git"
+  },
+  "main": "lib/FrayToolsPluginCore.js",
+  "types": "lib/FrayToolsPluginCore.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint -c .eslintrc.js src/ts/**/*",
+    "prepare": "npm run build",
+    "publish": "npm publish --access public"
+  },
+  "contributors": [
+    "Greg McLeod"
+  ],
+  "devDependencies": {
+    "@types/react": "16.9.47",
+    "@types/react-dom": "16.9.8",
+    "@typescript-eslint/eslint-plugin": "3.10.1",
+    "@typescript-eslint/parser": "3.10.1",
+    "eslint": "7.7.0",
+    "eslint-plugin-react": "7.20.6",
+    "typescript": "4.0.2"
+  },
+  "dependencies": {
+    "openfl": "8.9.6",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "peerDependencies": {
+    "openfl": "8.x",
+    "react": "16.x",
+    "react-dom": "16.x"
+  },
+  "peerDependenciesMeta": {
+    "openfl": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/FrayTools/plugin-core/issues"
+  },
+  "homepage": "https://github.com/FrayTools/plugin-core#readme",
+  "author": "Greg McLeod",
+  "license": "MIT"
+}

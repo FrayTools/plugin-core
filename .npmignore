@@ -1,0 +1,6 @@
+*
+
+!lib/**
+!static/**
+!package.json
+!LICENSE

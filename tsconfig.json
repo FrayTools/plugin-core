@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "jsx": "react",
+    "target": "es2015",
+    "baseUrl": "",
+    "outDir": "lib/",
+    "rootDir": "src/",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "openfl/*": [ "node_modules/openfl/lib/openfl/*"]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
